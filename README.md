@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Book App 📚
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application for managing your book reading list.
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+Kitap Kurdu allows you to add, edit, delete, and mark books as read or unread. It's a handy tool for keeping track of your reading habits.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Add new books to your reading list
+- Edit book titles and reading dates
+- Delete books from the list
+- Mark books as read or unread
+- Responsive design for mobile and desktop use
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Used Technologies
 
-### `npm test`
+- **Frontend**: React.js
+- **Styling**: Bootstrap
+- **Notifications**: react-toastify
+- **Development Server**: JSON Server
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Development
 
-### `npm run build`
+To run this project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ````bash
+   https://github.com/emreertugrl/book_app.git   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ````
 
-### `npm run eject`
+2. Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   cd book_app
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Start the development server:
 
-## Learn More
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Start the JSON Server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   json-server --watch db.json --port 5000
+   ```
 
-### Code Splitting
+## Visual
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img src="/" alt="book-app-gif">
 
-### Analyzing the Bundle Size
+## Live Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<a href="https://">Netlify Project View</a>
 
-### Making a Progressive Web App
+## API'ler
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+No external APIs were used in this project.
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+For any questions or suggestions, feel free to reach out:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email: emreertugrl7@gmail.com
+- LinkedIn: [emreertugrul7](https://www.linkedin.com/in/emreertugrul7/)
