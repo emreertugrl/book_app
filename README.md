@@ -60,10 +60,6 @@ To run this project locally, follow these steps:
 
 <img src="/public/book.gif" alt="book-app-gif">
 
-## Live Demo
-
-<a href="https://">Netlify Project View</a>
-
 ## API'ler
 
 No external APIs were used in this project.
