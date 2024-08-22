@@ -4,7 +4,7 @@ A simple React application for managing your book reading list.
 
 ## Project Description
 
-Kitap Kurdu allows you to add, edit, delete, and mark books as read or unread. It's a handy tool for keeping track of your reading habits.
+Kitap app allows you to add, edit, delete, and mark books as read or unread. It's a handy tool for keeping track of your reading habits.
 
 ## Features
 
@@ -58,7 +58,7 @@ To run this project locally, follow these steps:
 
 ## Visual
 
-<img src="/" alt="book-app-gif">
+<img src="/public/book.gif" alt="book-app-gif">
 
 ## Live Demo
 
